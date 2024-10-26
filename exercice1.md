@@ -12,7 +12,7 @@ On a le tableau des partitions présentes, plus les commandes de menu en bas.
 - On supprime la partition /dev/sda2.
 - On redimensionne la partition d'amorçage /dev/sda1. On la réduit à 16G.
 
-(Checkpoint1-SRVDEBIAN_25_10_2024_11_20_33.png)
+![Screenshot 1](Checkpoint1-SRVDEBIAN_25_10_2024_11_20_33.png)
 
 ### Créer les deux nouvelles partitions
 
@@ -20,7 +20,7 @@ On a le tableau des partitions présentes, plus les commandes de menu en bas.
 - Dans /dev/sda2, on crée une nouvelle partition /dev/sda5 de 6G et de type Linux (83)
 - On crée une partition /dev/sda6 de type swap (82) avec la place restante, soit 3G
 
-(Checkpoint1-SRVDEBIAN_25_10_2024_11_29_09.png)
+![Screenshot 2](Checkpoint1-SRVDEBIAN_25_10_2024_11_29_09.png)
 
 ### Vérification et validation
 
