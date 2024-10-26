@@ -8,7 +8,7 @@ fi
 
 for utilisateur in $*
 do
-	# cherche le nom de l'utilisateur en début de ligne / renvoie 0 ou 1
+    # cherche le nom de l'utilisateur en début de ligne / renvoie 0 ou 1
     existe=$(grep -c ^"$utilisateur": /etc/passwd)
     if [ $existe -eq 1 ]
      then
