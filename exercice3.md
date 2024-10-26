@@ -67,10 +67,10 @@ Comme matériels associés, on peut citer :
 
 8. Equivalence Bash ~ Powershell
 
-  cd : Set-Location
-  cp : Copy-Item
-  mkdir : New-Item
-  ls : Get-ChildItem
+* cd : Set-Location
+* cp : Copy-Item
+* mkdir : New-Item
+* ls : Get-ChildItem
 
 9. Le payload est la partie effective des données à transmettre. Dans une trame Ethernet, elle peut contenir un paquet IP.
 
