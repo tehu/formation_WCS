@@ -12,7 +12,7 @@ Les 2 IP fixes ont un CIDR de 24 bits. Ce qui se traduit par le masque de sous-r
 
 Ecran 1 : CLIENT voit sa propre IP mais pas celle de WINSERV
 
-(Checkpoint2-CLIWIN10_15_11_2024_09_32.png)
+![Screenshot 1](Checkpoint2-CLIWIN10_15_11_2024_09_32.png)
 
 ### Changer l'IP de la machine CLIENT1
 
@@ -24,11 +24,11 @@ Ecran 1 : CLIENT voit sa propre IP mais pas celle de WINSERV
 
 Ecran 2 : Paramétrage IPv4 de l'interface réseau de CLIENT1
 
-(Checkpoint2-CLIWIN10_15_11_2024_10_04.png)
+![Screenshot 2](Checkpoint2-CLIWIN10_15_11_2024_10_04.png)
 
 Ecran 3 : CLIENT a une adresse fixe modifiée et voit désormais l'IP de WINSERV
 
-(Checkpoint2-CLIWIN10_15_11_2024_09_43.png)
+![Screenshot 3](Checkpoint2-CLIWIN10_15_11_2024_09_43.png)
 
 ## Q.1.3
 
@@ -46,7 +46,7 @@ CLIENT1
 - L'adresse obtenue est 172.16.10.20
 - C'est la première adresse autorisée sur la plage gérée sur Winserv
 
-(Checkpoint2-CLIWIN10_15_11_2024_10_22.png)
+![Screenshot 4](Checkpoint2-CLIWIN10_15_11_2024_10_22.png)
 
 ## Q.1.4
 
@@ -54,5 +54,5 @@ CLIENT1 ne peut pas récupérer l'adresse 172.16.10.15 car elle fait partie des 
 
 On le voit sur cette copie d'écran : plages exclues dans l'Address Pool du sous-réseau.
 
-(Checkpoint2-SRVWIN2022_15_11_2024_10.png)
+![Screenshot 5](Checkpoint2-SRVWIN2022_15_11_2024_10.png)
 
