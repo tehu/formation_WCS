@@ -12,7 +12,7 @@ Les 2 IP fixes ont un CIDR de 24 bits. Ce qui se traduit par le masque de sous-r
 
 Ecran 1 : CLIENT voit sa propre IP mais pas celle de WINSERV
 
-(((Checkpoint2-CLIWIN10_15_11_2024_09_32.png))
+(Checkpoint2-CLIWIN10_15_11_2024_09_32.png)
 
 ### Changer l'IP de la machine CLIENT1
 
@@ -24,7 +24,7 @@ Ecran 1 : CLIENT voit sa propre IP mais pas celle de WINSERV
 
 Ecran 2 : Paramétrage IPv4 de l'interface réseau de CLIENT1
 
-(Checkpoint2-CLIWIN10_15_11_2024_10_04.mng)
+(Checkpoint2-CLIWIN10_15_11_2024_10_04.png)
 
 Ecran 3 : CLIENT a une adresse fixe modifiée et voit désormais l'IP de WINSERV
 
